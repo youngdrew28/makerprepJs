@@ -104,13 +104,19 @@ console.log("-------loop politicians-------");
 
 var allPoliticians = "";
 for (var job in politicians){
-console.log(allPoliticians += politicians[job]+" ");
+(allPoliticians += politicians[job]+" ");
 }
+console.log(allPoliticians);
 
 console.log("-------loop politicians 2nd time---");
-var politicians = {
+for (var job2 in politicians){
+  console.log(politicians);
+}
 
 
 
-  
+//exercise 7
+
+var reverse_politician_lookup = {
+
 }
