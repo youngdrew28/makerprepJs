@@ -1,5 +1,5 @@
 
-
+//day9
 // exercise 1
 var myCat = {
    name: "Scout",
