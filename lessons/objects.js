@@ -119,4 +119,20 @@ for (var job2 in politicians){
 
 var reverse_politician_lookup = {
 
-}
+};
+
+
+//exercise 8
+var complex_object = {
+  string: "I'm a string!",
+  number: 42,
+ array: ["all sorts of stuff", 10, true, undefined
+ function(){console.log('beepity-beep')}]
+  fn: console.log,
+  simple_object: {name: 'bob', location: 'basement', happy: 'false'},
+};
+
+complex_object.string;
+complex_object.array;
+complex_object.simple_object.name;
+complex_object.fn("print me!");
