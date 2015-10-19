@@ -39,9 +39,47 @@ console.log(randomNumber());
 
 var count = 10;
 while (count > 0){
-  console.log(randomNumbe()));
+  console.log(randomNumber()));
   count--;
 }
+
+//exerise 3
+// function that 3x
+function tripler(num){
+  return num * 3;
+}
+console.log(tripler(5));
+
+// function that multiply x * y
+function multiply(num1, num2){
+  return num1 * num2;
+}
+console.log(multiply(2,2));
+
+// function that divides
+function divide(num3, num4){
+  return num3 / num4;
+}
+
+console.log(divide(10,5));
+
+// function that gets the modulo
+function remainder (num5, num6) {
+  return num5 % num6;
+}
+console.log(remainder(100,2));
+
+console.log(remainder(divide(multiply(tripler(5), 12), 2), 3));
+
+var result = tripler(5);
+console.log(result + "!!");
+var result2 = multiply(result,12);
+console.log(result2+"!!");
+var result3 = divide(result2,2);
+console.log(result3+"!!");
+var result4 = remainder(result3,3)
+console.log(result4);
+
     </script>
 
   </body>
